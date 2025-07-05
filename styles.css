@@ -1,0 +1,45 @@
+body {
+      font-family: monospace;
+      padding: 20px;
+      font-size: 16px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+    }
+
+    .photo {
+      position: relative;
+      border: 1px solid #ccc;
+    }
+
+    .photo img {
+      width: 100%;
+      display: block;
+    }
+
+    .favorite-button {
+      background: none;
+      border: none;
+      color: #ccc;
+      font-size: 24px;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      cursor: pointer;
+    }
+
+    .favorite-button.active {
+      color: gold;
+    }
+
+    .no-photos {
+      text-align: center;
+      color: #999;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
