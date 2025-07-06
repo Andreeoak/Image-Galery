@@ -9,7 +9,7 @@ A simple photo gallery web app built with **Vue 3** that allows users to:
 ---
 
 ## Demos
-
+![image](https://github.com/user-attachments/assets/779b83fc-4d7a-4356-b1c2-24b5e439756c)
 
 ---
 
